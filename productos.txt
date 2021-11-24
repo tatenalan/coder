@@ -1,0 +1,20 @@
+[
+  {
+    "title": "pala",
+    "price": 1200,
+    "thumbnail": "pala.png",
+    "id": 1
+  },
+  {
+    "title": "escoba",
+    "price": 510,
+    "thumbnail": "escoba.jpg",
+    "id": 2
+  },
+  {
+    "title": "serrucho",
+    "price": 1500,
+    "thumbnail": "serrucho.svg",
+    "id": 3
+  }
+]
