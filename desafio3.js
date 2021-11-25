@@ -18,6 +18,13 @@ const PORT = process.env.port || app.listen(8080, async () => {
 
 });
 
+app.get('/', (req, res) => {
+    console.log("GET request");
+
+    res.send('saludos')
+})
+
+
 app.get('/productos', (req, res) => {
     if (products && products.length > 0) {
         res.json({
