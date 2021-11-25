@@ -6,7 +6,7 @@ const Contenedor = require('./claseContenedor.js');
 const contenedor = new Contenedor('./productos.txt');
 let products = [];
 
-const PORT = app.listen(8080, async () => {
+const PORT = process.env.port || app.listen(8080, async () => {
     console.log(`Server on`);
 
     try {
